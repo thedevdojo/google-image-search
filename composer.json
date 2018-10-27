@@ -1,0 +1,19 @@
+{
+    "name": "devdojo/google-image-search",
+    "description": "You're able to query google for images using Google's new Custom Search API.",
+    "authors": [
+        {
+            "name": "Tony Lea",
+            "email": "tony@devdojo.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevDojo\\GoogleImageSearch\\": "src/",
+            "DevDojo\\Tests\\": "tests/"
+        }
+    }
+}
