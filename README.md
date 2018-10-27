@@ -1,5 +1,5 @@
 # Google Image Search
-You're able to query google for images using Google's new Custom Search API.
+Query google for images using Google's new Custom Search API.
 
 ``` php
 ImageSearch::config()->apiKey('API Goes Here');
